@@ -1,0 +1,45 @@
+<ion-header class="bg-transparent">
+    <ion-navbar>
+        <ion-title>
+            <ion-badge class="end">
+                <ion-icon name="md-calendar"></ion-icon>
+                2 June - 6 June
+            </ion-badge>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-color">
+    <div class="banner">
+        <img src='assets/imgs/8.png'>
+        <div class="store-name">
+            <h2 class="text-white d-flex">Opening Night Ceremony</h2>
+        </div>
+    </div>
+    <div class="details">
+        <div class="about">
+            <h3 class="text-white">About event</h3>
+            <p class="text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,</p>
+        </div>
+        <div class="interested d-flex">
+            <h3 class="d-flex text-white">
+                556 <small class="text-gray">People are going</small>
+            </h3>
+            <button ion-button block icon-start class="btn text-theme end" outline round (click)="edit_event()">
+                <ion-icon class="material-icons">create</ion-icon>
+                Edit event
+            </button>
+        </div>
+        <div class="address">
+            <h3 class="text-white d-flex">Address
+                <span class="text-theme end ">Get direction</span>
+            </h3>
+            <p class="text-white">780, Walmart Stert (120m)</p>
+            <div class="map">
+                <img src="assets/imgs/map-location.png">
+            </div>
+            <img src="assets/imgs/ic_pin.png" class="location">
+        </div>
+    </div>
+
+</ion-content>

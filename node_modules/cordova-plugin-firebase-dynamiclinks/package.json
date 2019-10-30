@@ -1,0 +1,67 @@
+{
+  "_from": "cordova-plugin-firebase-dynamiclinks",
+  "_id": "cordova-plugin-firebase-dynamiclinks@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-fCa8C8cFlusNBnUyWBsTPgCHG0Kl0IGMr4HnYZx9oIiV1U+hgwtnSJFwiZppGxkrpa8xhKcCtT+ft8zk8IVS4A==",
+  "_location": "/cordova-plugin-firebase-dynamiclinks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-dynamiclinks",
+    "name": "cordova-plugin-firebase-dynamiclinks",
+    "escapedName": "cordova-plugin-firebase-dynamiclinks",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-dynamiclinks/-/cordova-plugin-firebase-dynamiclinks-3.0.0.tgz",
+  "_shasum": "b4b2e49820a4358d6cc97c3f8ddee3e3359a0181",
+  "_spec": "cordova-plugin-firebase-dynamiclinks",
+  "_where": "/Users/hilive/HiLive_app",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-firebase-dynamiclinks",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for Firebase Dynamic Links",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks#readme",
+  "keywords": [
+    "Firebase Invites",
+    "Firebase",
+    "Invites",
+    "App Invites",
+    "Google App Invites",
+    "Firebase Dynamic Links",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-dynamiclinks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "3.0.0"
+}

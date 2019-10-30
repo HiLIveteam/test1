@@ -1,0 +1,13 @@
+{
+  "cordova-plugin-firebase-dynamiclinks": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase-dynamiclinks"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_DOMAIN": "example.com",
+      "PAGE_LINK_DOMAIN": "example.page.link"
+    }
+  }
+}

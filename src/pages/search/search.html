@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            <ion-icon name="md-close" class="text-theme" (click)="dismiss()"></ion-icon>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-color">
+    <div class="form">
+        <ion-searchbar (ionInput)="getItems($event)" placeholder=" What are you searching for ? " class="text-white"></ion-searchbar>
+        <ion-list no-lines>
+            <ion-item *ngFor="let item of items">
+                {{ item }}
+            </ion-item>
+        </ion-list>
+
+        <div class="recent-serch">
+            <h2 class="text-gray">Recent research</h2>
+            <p class="text-white">Chinese Restaurant</p>
+            <p class="text-white">Formal Clothes</p>
+            <p class="text-white">Baked Cake</p>
+        </div>
+    </div>
+    <div class="categories">
+        <h2 class="text-gray d-flex">Choose categories<span class="text-theme end">View all</span></h2>
+        <ion-list no-lines>
+            <ion-item>
+                <img src="assets/imgs/ca1.png" class="bg">
+                <div text-center class="text">
+                    <h2 class="text-white">Food restaurants</h2>
+                    <p class="text-gray">150 Stores</p>
+                </div>
+            </ion-item>
+            <ion-item>
+                <img src="assets/imgs/ca2.png" class="bg">
+                <div text-center class="text">
+                    <h2 class="text-white"> General stores</h2>
+                    <p class="text-gray">209 Stores</p>
+                </div>
+            </ion-item>
+            <ion-item>
+                <img src="assets/imgs/ca4.png" class="bg">
+                <div text-center class="text">
+                    <h2 class="text-white">Dairy Backery</h2>
+                    <p class="text-gray">108 Stores</p>
+                </div>
+            </ion-item>
+        </ion-list>
+    </div>
+</ion-content>

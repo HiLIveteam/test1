@@ -1,0 +1,34 @@
+<ion-header class="bg-transparent">
+    <ion-navbar>
+        <ion-title>Register</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="bg-color">
+    <div class="banner">
+        <img src="assets/imgs/background.png" class="background">
+        <div class="logo">
+            <img src="assets/imgs/logo.png">
+        </div>
+    </div>
+    <div class="form" padding-left padding-right>
+        <ion-list no-lines padding-left padding-right>
+            <ion-item>
+                <ion-label floating>User Name</ion-label>
+                <ion-input type="email" value="Lucas Malanda"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label floating>email address</ion-label>
+                <ion-input type="email" value="lucas@hilive.live"></ion-input>
+            </ion-item>
+            <ion-item class="password">
+                <ion-label floating>set password</ion-label>
+                <ion-input type="password" class="password" value="******"></ion-input>
+            </ion-item>
+            <ion-item class="password">
+                <ion-label floating>confirm password</ion-label>
+                <ion-input type="password" class="password" value="******"></ion-input>
+            </ion-item>
+            <button ion-button block class="btn" (click)="tabs()" round>register now</button>
+        </ion-list>
+    </div>
+</ion-content>

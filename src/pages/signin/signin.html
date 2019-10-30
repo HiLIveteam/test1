@@ -1,0 +1,35 @@
+<ion-header class="bg-transparent">
+    <ion-navbar>
+        <ion-title>Sign in</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-color">
+    <div class="banner">
+        <img src="assets/imgs/background.png" class="background">
+        <div class="logo">
+            <img src="assets/imgs/logo.png">
+        </div>
+    </div>
+    <div class="form">
+        <ion-list no-lines padding-left padding-right>
+            <ion-item>
+                <ion-label floating>email address</ion-label>
+                <ion-input type="email" value="lucas@hilive.live"></ion-input>
+            </ion-item>
+            <ion-item class="password">
+                <ion-label floating>password</ion-label>
+                <ion-input type="password" class="password" value="******"></ion-input>
+                <h5 class="text-theme" item-end (click)="password()">forgot ?</h5>
+            </ion-item>
+            <button ion-button block class="btn" (click)="tabs()" round>Sign in now</button>
+            <p text-center class="text-white">New User ?</p>
+            <div class="socile d-flex">
+                <button ion-button icon-start block outline class="btn text-white" round (click)="register()">
+                    <ion-icon class="material-icons text-theme">add</ion-icon>
+                    Register Now
+                </button>
+            </div>
+        </ion-list>
+    </div>
+</ion-content>
